@@ -1,0 +1,20 @@
+How to Run the Code  
+
+Before You Start:
+1. Install Node.js  
+2. Make sure npm is installed.  
+3. Create a file called .env in the root folder and add this line: OPENAI_API_KEY=<Your API Key Here>
+(Don’t change the variable name.)  
+
+Commands:  
+
+1. Install everything needed:  
+   npm install
+   
+2. Run the tests:  
+   node run-tests.js
+
+Optional (See Response and File Creation): 
+
+If you want to see the response generation and file creation run this:  
+node colab.js
